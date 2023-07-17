@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to our site</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ 
+	<div class="login">
+    <h1>Select the feature you want</h1>
+    <form action="/summary/" method="post">
+        <button name="forwardBtn" type="submit">Text Summary</button>
+    </form>
+
+    <form action="/generate/" method="post">
+        <button name="forwardBtn" type="submit">Text Generation</button>
+    </form>
+
+    <form action="/similarity/" method="post">
+        <button name="forwardBtn" type="submit">Text Similarity</button>
+    </form>
+
+    <form action="/audio/" method="post">
+      <button name="forwardBtn" type="submit">Audio to Text</button>
+  </form>
+
+  <form action="/image/" method="post">
+    <button name="forwardBtn" type="submit">Image to Text</button>
+</form>
+
+  </div>
+
+  
+
+    <!-- Summary, Generation, Similarity-->
+
+<!-- 
+    <form action="/predict/" method="post">
+      <div class="inp">
+        <input type="text" name="tweet" placeholder="Enter the text" required="required" />
+      </div>
+      <button name="forwardBtn" type="submit">Predict</button>
+  </form>
+-->
+
+ 
+</body>
+</html>

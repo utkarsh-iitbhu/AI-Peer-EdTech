@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Text Generation</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Text Generation</h1>
+
+
+    <form action="/predict_gen/" method="post">
+      <div class="inp">
+        <input type="text" name="tweet" placeholder="Enter the text" required="required" />
+      </div>
+      <button name="forwardBtn" type="submit">Predict</button>
+  </form>
+
+   <br>
+   <br>
+
+
+  <!-- <div class="green"> -->
+    <h10> {{pred_generate}}</h10>
+  <!-- </div> -->
+
+
+  
+  
+   <!--{{ prediction_text }} -->
+
+ </div>
+</body>
+</html>

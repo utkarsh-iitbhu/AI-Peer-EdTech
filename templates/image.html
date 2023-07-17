@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Generate Summary</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Convert image to text</h1>
+
+
+    <!-- <form action="/predict_image/" method="post">
+      <div class="inp">
+        <input type="image" >
+      </div>
+      <button name="forwardBtn" type="submit">Predict</button>
+  </form> -->
+
+
+
+  <br>
+  <br> 
+    <form action="{{ url_for('predict5') }}" method="post" enctype="multipart/form-data">
+      <label for="image-input">Select Image:</label>
+      <input type="file" id="image-input" name="image-input" accept="image/*">
+      <br>
+      <br> 
+      <input type="submit" value="Upload">
+    </form>
+    {% if result %}
+      <div>
+        <p>OCR Output:</p>
+        <pre>{{ result }}</pre>
+      </div>
+    {% endif %}
+  
+
+
+   <br>
+   <br>
+
+
+  <!-- <div class="green"> -->
+    <h10> {{pred_image}}</h10>
+  <!-- </div> -->
+
+
+  
+  
+   <!--{{ prediction_text }} -->
+
+ </div>
+</body>
+</html>
