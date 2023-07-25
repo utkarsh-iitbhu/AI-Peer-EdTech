@@ -29,7 +29,7 @@ Welcome to our Ed-Tech Platform for Active Retention Learning! This platform aim
 
 ### Installation
 
-1. Clone the repository: git clone https://github.com/your_username/edtech-platform.git
+1. Clone the repository: git clone https://github.com/utkarsh-iitbhu/edtech-platform.git
 
 2. Set up the back-end: Follow the instructions in the backend/README.md file to set up the Django back-end and deploy it on Heroku.
 
