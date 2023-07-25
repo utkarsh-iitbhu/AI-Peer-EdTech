@@ -1,13 +1,11 @@
 # AI_Peer Ed-Tech Platform
 Ed-Tech Platform for Active Retention Learning
 
-![image](https://github.com/utkarsh-iitbhu/AI-Peer-EdTech/assets/84759422/bdf67331-d877-46c9-9f55-4b1a366ddea2)
-
 Welcome to our Ed-Tech Platform for Active Retention Learning! This platform aims to revolutionize how students learn and retain information through spaced repetition, BERT-based text generation, summarization, similarity checking, and question-answering capabilities. Our app uses Flutter for the front-end, Django for the back-end, and Transformers for natural language processing tasks.
 
 ### Demo of our App
 
-[![Video Thumbnail](thumbnail_image_url)](https://www.youtube.com/watch?v=qk54SFoU4wk)
+[![Video Thumbnail]((https://github.com/utkarsh-iitbhu/AI-Peer-EdTech/assets/84759422/bdf67331-d877-46c9-9f55-4b1a366ddea2))](https://www.youtube.com/watch?v=qk54SFoU4wk)
 
 
 ### Features
