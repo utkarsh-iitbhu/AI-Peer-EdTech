@@ -6,7 +6,9 @@ Ed-Tech Platform for Active Retention Learning
 Welcome to our Ed-Tech Platform for Active Retention Learning! This platform aims to revolutionize how students learn and retain information through spaced repetition, BERT-based text generation, summarization, similarity checking, and question-answering capabilities. Our app uses Flutter for the front-end, Django for the back-end, and Transformers for natural language processing tasks.
 
 ### Demo of our App
-[Link](https://drive.google.com/file/d/1n5UrhL2EOMOGEAYQf3yExPq6yStutlNw/view?usp=drive_link)
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qk54SFoU4wk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 ### Features
 
