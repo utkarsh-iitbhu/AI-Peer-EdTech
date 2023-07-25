@@ -5,7 +5,7 @@ Welcome to our Ed-Tech Platform for Active Retention Learning! This platform aim
 
 ### Demo of our App
 
-[![Video Thumbnail](https://github.com/utkarsh-iitbhu/AI-Peer-EdTech/assets/84759422/bdf67331-d877-46c9-9f55-4b1a366ddea2)](https://www.youtube.com/watch?v=qk54SFoU4wk)
+[![Video Thumbnail](https://github.com/utkarsh-iitbhu/AI-Peer-EdTech/blob/main/memor.jpg)](https://www.youtube.com/watch?v=qk54SFoU4wk)
 
 
 ### Features
